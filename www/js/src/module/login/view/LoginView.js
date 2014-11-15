@@ -1,7 +1,9 @@
 Ext.define("FoB.module.login.view.LoginView", {
-    extend : "FoB.module.template.TemplateAbstract",
+    extend : "Ext.Panel",
 
-    TEMPLATE_NAME : "login_form",
+    config : {
+
+    },
 
     /**
      * Creates the view.

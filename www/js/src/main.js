@@ -14,5 +14,6 @@ Ext.application({
      */
     launch: function() {
         var loginView = Ext.create("FoB.module.login.view.LoginView");
+        loginView.create();
     }
 });

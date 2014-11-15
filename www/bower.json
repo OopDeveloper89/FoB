@@ -1,0 +1,10 @@
+{
+    "name": "FoB",
+    "title": "Fight of the biests",
+    "description": "Card game.",
+    "version": "0.0.1",
+    "dependencies": {
+        "bootstrap": "~3.3.0",
+        "ember": "~1.6"
+    }
+}
