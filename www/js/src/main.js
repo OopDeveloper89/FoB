@@ -10,7 +10,7 @@ Ext.application({
     /**
      * Main entry point of the app.
      *
-     * @author kemal
+     * @author oopdeveloper
      */
     launch: function() {
         var loginView = Ext.create("FoB.module.login.view.LoginView");

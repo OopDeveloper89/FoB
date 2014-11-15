@@ -8,7 +8,7 @@ Ext.define("FoB.module.login.view.LoginView", {
     /**
      * Creates the view.
      *
-     * @author kemal
+     * @author oopdeveloper
      * @return {string}
      */
     create : function() {

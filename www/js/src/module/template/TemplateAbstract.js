@@ -3,7 +3,7 @@ Ext.define("FoB.module.template.TemplateAbstract", {
     /**
      * Creates the view.
      *
-     * @author kemal
+     * @author oopdeveloper
      * @return {string}
      */
     create : function() {
