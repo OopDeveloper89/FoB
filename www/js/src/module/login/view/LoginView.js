@@ -1,17 +1,8 @@
 Ext.define("FoB.module.login.view.LoginView", {
-    extend : "Ext.Panel",
+    extend : "Ext.Container",
+    xtype : "loginview",
 
     config : {
-
-    },
-
-    /**
-     * Creates the view.
-     *
-     * @author oopdeveloper
-     * @return {string}
-     */
-    create : function() {
-        this.callParent();
+        html: templates["login_form"].render()
     }
 });

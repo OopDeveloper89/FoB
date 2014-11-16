@@ -4,5 +4,7 @@
   "description": "Card game.",
   "version": "0.0.1",
   "dependencies": {
+    "requirejs-browser": "~2.1.9",
+    "hogan.js": "~3.0.2"
   }
 }

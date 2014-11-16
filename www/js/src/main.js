@@ -3,17 +3,11 @@ Ext.application({
 
     appFolder : "js/src",
 
-    requires : [
-        "FoB.module.login.view.LoginView"
+    controllers : [
+        "FoB.module.login.controller.LoginController",
+        "FoB.module.home.controller.HomeController",
+        "FoB.module.newAccount.Controller",
     ],
 
-    /**
-     * Main entry point of the app.
-     *
-     * @author oopdeveloper
-     */
-    launch: function() {
-        var loginView = Ext.create("FoB.module.login.view.LoginView");
-        loginView.create();
-    }
+    launch: function() { }
 });
