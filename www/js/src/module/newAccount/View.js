@@ -6,8 +6,11 @@ Ext.define("FoB.module.newAccount.View", {
     },
 
     initialize : function() {
+        var panel = new UIB.Panel();
+        panel.addContent(new UIB.HtmlOutput("Test"));
+
         var container = new UIB.Container();
-        container.addContent(new UIB.Panel());
+        container.addContent(panel);
         this.setHtml(container.render());
     }
 });
