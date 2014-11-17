@@ -8,6 +8,7 @@
         }
     },
     "requires" : {
-
+        "cboden/ratchet" : "0.3.*",
+        "doctrine/orm" : "2.1.7"
     }
 }
